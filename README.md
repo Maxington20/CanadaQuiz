@@ -1,4 +1,4 @@
-# [hellophonegap](https://github.com/rhildred/hellophonegap)
+# [CanadaQuiz](https://github.com/Mherrington8944/CanadaQuiz)
 
 phonegap hello world. The config.xml sets the name and id:
 
@@ -51,3 +51,4 @@ The html5 phonegap code includes the javascript `cordova.js` file, which will be
 ```
 
 This can be loaded up on phonegap build, and turned into a apk that can be put on your phone.
+"# CanadaQuiz" 
