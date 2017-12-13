@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="io.github.Mherrington8944.CanadaQuiz" version="0.0.1">
+
+    <name>Canada Quiz</name>
+
+    <description>
+        a simple quiz about Canada
+    </description>
+    <content src="index.html" />
+    <author href="https://github.com/Mherrington8944.io">
+        Max Herrington
+    </author>
+    <access origin="*" />
+</widget>
