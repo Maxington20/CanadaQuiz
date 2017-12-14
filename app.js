@@ -41,18 +41,18 @@ function showScores(){
         gameOverHtml += "<h2 id='score'>Your Score was: " + quiz.score + "/" + quiz.questions.length + "<br><br>That's just embarassing!</h2><br><br><figure><img src='images/sadface.png'></figure>";
     }
     else if(quiz.score <=5){
-        gameOverHtml += "<h2 id='score'>Your Score was: " + quiz.score + "/" + quiz.questions.length + "<br><br>Hit the books!</h2>";
+        gameOverHtml += "<h2 id='score'>Your Score was: " + quiz.score + "/" + quiz.questions.length + "<br><br>Hit the books!</h2><br><br><figure><img src='images/book.png'></figure>";
     }
 
     else if(quiz.score <=8){
-        gameOverHtml += "<h2 id='score'>Your Score was: " + quiz.score + "/" + quiz.questions.length + "<br><br>Not bad!</h2>";
+        gameOverHtml += "<h2 id='score'>Your Score was: " + quiz.score + "/" + quiz.questions.length + "<br><br>Not bad!</h2><br><br><figure><img src='images/checkmark.png'></figure>";
     }
     else{
         gameOverHtml += "<h2 id='score'>Your Score was: " + quiz.score + "/" + quiz.questions.length + "<br><br>Wow, you seem to know a lot about Canada!</h2><br><br><figure><img src='images/canadianflag.png'></figure>";
         
     }
 
-    gameOverHtml += "<input type='button' value='Try Again' onClick='window.location.reload()'>";
+    gameOverHtml += "<input type='button' value='Play Again' onClick='window.location.reload()'>";
    
     var element = document.getElementById("quiz");
     element.innerHTML = gameOverHtml;
