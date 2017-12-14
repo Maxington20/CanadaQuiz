@@ -22,8 +22,8 @@ html{
     color: white;
     padding: 2px 0px;
     margin-bottom:0.5em;
-    border-bottom: 2px groove black;
     text-shadow: 2px 2px 2px black;
+    box-shadow: 1px 1px 1px black;
 }
 
 .grid #question{
@@ -49,6 +49,7 @@ margin-top:1%;
 padding: 0.5em 0.5em;
 text-shadow: 1px 1px 1px black;
 font-weight: bold;
+box-shadow: 1px 1px 1px black;
 }
 
 #score{
@@ -97,4 +98,5 @@ input{
     padding: 0.5em 0.5em;
     text-shadow: 1px 1px 1px black;
     font-weight: bold;
+    box-shadow: 1px 1px 1px black;
 }
