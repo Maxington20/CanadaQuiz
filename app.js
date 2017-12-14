@@ -1,3 +1,5 @@
+//This is where the magic happens
+
 function populate(){
     if(quiz.isEnded()){
         showScores();
